@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app='portfolio' class="no-js">
+<html ng-app='portfolio'>
 
 <head>
     <meta charset="UTF-8" />
@@ -9,48 +9,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://use.fontawesome.com/32cc6c2324.js"></script>
-    <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
-    <script type='text/javascript' src='../jquery.particleground.js'></script>
-    <script type='text/javascript' src='js/demo.js'></script>
     <link rel="stylesheet" href="css/main.css">
+
+    
 </head>
 
 <body>
-    <section ng-controller='TableController as vm' id="particles">
-        <header>
-            <div class="hamburger-menu">
-                <div class="bar"></div>
-            </div>
-            <div id="header" class="container navBar nav navBarHidden navBarVisible">
-                <div class="row">
-                    <div class="col-md-3 leftHeader">
-                        <i class="fa fa-file-code-o" aria-hidden="true"></i>
-                        <h4>Portfolio</h4>
-                    </div>
-                    <div class="col-md-3 leftMiddle">
-                        <i class="fa fa-user-o" aria-hidden="true"></i>
-                        <h4>About</h4>
-                    </div>
-                    <div class="col-md-3 rightMiddle">
-                        <a href="">Github</a>
-                        <a href="">Resume</a>
-                    </div>
-                    <div class="col-md-3 rightHeader">
-                        <i href="" class="fa fa-facebook-official" aria-hidden="true"></i>
-                        <i href="" class="fa fa-instagram" aria-hidden="true"></i>
-                        <i href="" class="fa fa-twitter" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </header>
+
+
+    <section>
+        <section ui-view='nav'></section>
+        <section ui-view='content'></section>
     </section>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src='js/main.js'></script>
-<script src='js/services/API.js'></script>
-<script src='js/controllers/TableController.js'></script>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+    <script src='js/main.js'></script>
+    <script src='js/services/API.js'></script>
+    <script src='js/controllers/TableController.js'></script>
+    <script src='js/controllers/navController.js'></script>
 </body>
 
 </html>
