@@ -8,6 +8,10 @@
 
             // Functions for Hamburger Menu and navBarHidden jQuery
             const vm = this;
+
+
+                    $('.navMenu').toggleClass('active');
+                
             
         })
 })();

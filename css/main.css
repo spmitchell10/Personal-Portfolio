@@ -1,7 +1,6 @@
 html, body {
   width: 100%;
-  height: 100%;
-  overflow: hidden; }
+  height: 100%; }
 
 body {
   background: #F5F5F5;
@@ -10,13 +9,9 @@ body {
   line-height: 1.3;
   -webkit-font-smoothing: antialiased; }
 
-#particles {
-  width: 100%;
-  height: 100%;
-  overflow: hidden; }
-
 header {
   position: fixed;
+  z-index: 999;
   top: 0;
   width: 100%;
   background-color: #292F36;
@@ -36,8 +31,14 @@ header {
     text-align: center;
     cursor: pointer; }
 
-.navMenu:hover {
+.navMenu:active {
   border-bottom: 5px solid #4ECDC4; }
+  .navMenu:active h4 {
+    color: #4ECDC4; }
+
+.navMenu:hover {
+  border-bottom: 5px solid #4ECDC4;
+  -webkit-transition: color .3s ease; }
   .navMenu:hover h4 {
     color: #4ECDC4; }
 
@@ -49,3 +50,36 @@ header {
     width: 100%;
     box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.4);
     cursor: pointer; }
+
+.singlePageView {
+  margin-top: 79px;
+  margin-bottom: 40px;
+  height: 100px;
+  background: #4ECDC4; }
+
+.siglePageTitle {
+  padding-top: 13px;
+  font-size: 30px;
+  padding-left: 13px; }
+
+.singleSite {
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.4); }
+
+.singleSiteDescription h3 {
+  color: #292F36;
+  margin: 0px; }
+
+.singleSiteDescription .header-underscore {
+  width: 40px;
+  height: 1px;
+  background: #292F36;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.projectDescription, .techDescription {
+  color: #292F36; }
+
+.technologies {
+  margin-top: 40px !important; }
