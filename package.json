@@ -4,13 +4,14 @@
   "description": "Angular",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "start":"node index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johncpatterson/TIY-6-4-To-Do-List-Angular.git"
   },
-  "author": "Jake Boyles",
+  "author": "Stpehen",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.17.0",
