@@ -3,13 +3,15 @@
 
     angular
         .module('portfolio', ['ui.router'])
-        .config(function($stateProvider, $urlRouterProvider) {
+        .config(function($stateProvider, $urlRouterProvider,$locationProvider) {
 
+
+            $locationProvider.html5Mode(true);
 
 
             $stateProvider
                 .state('home', {
-                    url: '/home',
+                    url: '/',
                     views: {
                         'content': {
                             templateUrl: '../partials/home.html',
