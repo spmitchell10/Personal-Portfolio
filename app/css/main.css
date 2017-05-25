@@ -1,6 +1,7 @@
-html, body {
+body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  min-height: 100%; }
 
 body {
   background: #F5F5F5;
@@ -23,7 +24,14 @@ header {
   padding-top: 25px;
   float: right;
   padding-right: 15px;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none;
+  color: white; }
+
+.socialMedia:hover {
+  color: #4ECDC4;
+  transition: all .6s ease;
+  text-decoration: none; }
 
 .navMenu {
   padding-top: 25px; }
@@ -38,9 +46,10 @@ header {
 
 .navMenu:hover {
   border-bottom: 5px solid #4ECDC4;
-  -webkit-transition: color .3s ease; }
+  transition: all .4s ease; }
   .navMenu:hover h4 {
-    color: #4ECDC4; }
+    color: #4ECDC4;
+    transition: all .4s ease; }
 
 .portfolio {
   padding-top: 125px; }
@@ -83,3 +92,37 @@ header {
 
 .technologies {
   margin-top: 40px !important; }
+
+.footer {
+  background: #292F36;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px solid #FF6B6B;
+  height: 50px;
+  padding-top: 5px; }
+
+.footerCopy h6 {
+  float: left;
+  font-size: 15px; }
+
+.footerNav h6 {
+  text-align: center;
+  font-size: 12px; }
+
+.footerSocial a {
+  float: right;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-right: 5px; }
+
+.footerMenu {
+  cursor: pointer; }
+
+.content {
+  min-height: calc(100vh - 50px); }
+
+.noStyle:hover {
+  text-decoration: none; }
