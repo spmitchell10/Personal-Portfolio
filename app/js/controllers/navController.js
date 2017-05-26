@@ -10,8 +10,11 @@
             const vm = this;
 
 
-                    $('.navMenu').toggleClass('active');
-                
+                    (() => {
+                        $('.hamburgerMenu').on('click', function() {
+                            $('.bar').toggleClass('animate');
+                        })
+                    })();
             
         })
 })();
