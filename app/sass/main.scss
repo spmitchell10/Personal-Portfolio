@@ -45,8 +45,7 @@ header {
 
 .navMenu {
     padding-top: 25px;
-    h4,
-    a {
+    h4 {
         text-align: center;
         cursor: pointer;
         text-decoration: none;
@@ -56,8 +55,7 @@ header {
 
 .current {
     border-bottom: 5px solid #4ECDC4;
-    h4,
-    a {
+    h4 {
         color: #4ECDC4;
     }
 }
@@ -65,12 +63,21 @@ header {
 .navMenu:hover {
     border-bottom: 5px solid #4ECDC4;
     transition: all .4s ease;
-    h4,
-    a {
+    h4 {
         color: #4ECDC4;
         transition: all .4s ease;
     }
 }
+
+.naveMenu:active{
+  border-bottom: 5px solid #4ECDC4;
+  h4{
+    color: #4ECDC4;
+  }
+}
+
+
+
 
 // Portfolio
 .portfolio {
@@ -298,3 +305,41 @@ $bar-spacing: 8px;
 }
 
 //---------------------------------------------------------------------------------------------------------------------
+
+
+//Hidden Menu
+
+.hiddenMenu{
+  display: block;
+  height: 100%;
+  position: absolute;
+}
+
+.hiddenMenu{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+.navMenuHidden{
+  transform: translateY(-100%) !important;
+}
+
+.navMenuVisible{
+  display: block;
+  transform: translateY(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

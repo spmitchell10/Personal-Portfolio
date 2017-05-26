@@ -38,8 +38,7 @@ header {
 
 .navMenu {
   padding-top: 25px; }
-  .navMenu h4,
-  .navMenu a {
+  .navMenu h4 {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
@@ -47,17 +46,20 @@ header {
 
 .current {
   border-bottom: 5px solid #4ECDC4; }
-  .current h4,
-  .current a {
+  .current h4 {
     color: #4ECDC4; }
 
 .navMenu:hover {
   border-bottom: 5px solid #4ECDC4;
   transition: all .4s ease; }
-  .navMenu:hover h4,
-  .navMenu:hover a {
+  .navMenu:hover h4 {
     color: #4ECDC4;
     transition: all .4s ease; }
+
+.naveMenu:active {
+  border-bottom: 5px solid #4ECDC4; }
+  .naveMenu:active h4 {
+    color: #4ECDC4; }
 
 .portfolio {
   padding-top: 125px; }
@@ -225,3 +227,21 @@ header {
   bottom: 0;
   transform: rotate(-45deg);
   transition: bottom 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.hiddenMenu {
+  display: block;
+  height: 100%;
+  position: absolute; }
+
+.hiddenMenu {
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial; }
+
+.navMenuHidden {
+  transform: translateY(-100%) !important; }
+
+.navMenuVisible {
+  display: block;
+  transform: translateY(0%); }
