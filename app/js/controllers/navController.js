@@ -12,13 +12,13 @@
 
             (() => {
                 $('.hamburgerMenu').on('click', function() {
-                    $('.hiddenMenu').toggleClass('.navMenuHidden');
+                    $('.hiddenMenu').toggleClass('navMenuHidden');
                 })
             })();
 
             (() => {
-                $('.navMenu').on('click', function() {
-                    $('.navMenu').toggleClass('active');
+                $('.hamburgerMenu').on('click', function() {
+                    $('.bar').toggleClass('animate');
                 })
             })();
 

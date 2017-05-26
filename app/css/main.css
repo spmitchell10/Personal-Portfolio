@@ -142,7 +142,7 @@ header {
   text-decoration: none; }
 
 .aboutPage {
-  padding-top: 125px;
+  padding-top: 150px;
   color: #292F36; }
 
 .hello .education {
@@ -178,6 +178,24 @@ header {
   margin-bottom: 10px;
   margin-top: 10px;
   float: right; }
+
+.header-underscoreSkills {
+  width: 40px;
+  height: 1px;
+  background: #292F36;
+  margin: 0px auto; }
+
+.skills {
+  text-align: center;
+  padding-top: 45px; }
+
+.mySkills {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 15px; }
+  .mySkills i {
+    padding: 5px;
+    color: #292F36; }
 
 .hamburgerMenu {
   z-index: 9999;
@@ -231,7 +249,11 @@ header {
 .hiddenMenu {
   display: block;
   height: 100%;
-  position: absolute; }
+  width: 100%;
+  background: #292F36;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 999; }
 
 .hiddenMenu {
   transition: .3s ease-in-out;
@@ -243,5 +265,4 @@ header {
   transform: translateY(-100%) !important; }
 
 .navMenuVisible {
-  display: block;
   transform: translateY(0%); }
