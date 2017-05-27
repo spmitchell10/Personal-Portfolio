@@ -300,3 +300,6 @@ header {
   float: right;
   background: #4ECDC4;
   margin-bottom: 20px; }
+
+.form-control {
+  padding-bottom: 9px; }

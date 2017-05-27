@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "express": "^4.15.3",
+    "nodemailer": "^4.0.1",
     "run-sequence": "^1.2.2"
   }
 }
