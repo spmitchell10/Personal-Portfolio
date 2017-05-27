@@ -56,6 +56,29 @@
                 }),
 
             $stateProvider
+                .state('contact', {
+                    url: '/contact',
+                    views: {
+                        'content': {
+                            templateUrl: '../partials/contact.html',
+                            controller: 'TableController',
+                            controllerAs: 'vm',
+                        },
+                        'nav': {
+                            templateUrl: '../partials/nav.html',
+                            controller: 'navController',
+                            controllerAs: 'vm',
+                        },
+                        'footer': {
+                            templateUrl: '../partials/footer.html',
+                            controller: 'navController',
+                            controllerAs: 'vm',
+                        }
+
+                    }
+                }),
+
+            $stateProvider
                 .state('jamsesh', {
                     url: '/jamsesh',
                     views: {
