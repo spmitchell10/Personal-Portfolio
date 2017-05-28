@@ -252,10 +252,9 @@ header {
   height: 100%;
   width: 100%;
   background: #292F36;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   position: fixed;
   z-index: 999;
-  padding-top: 80px;
   text-align: center; }
   .hiddenMenu h4 {
     font-size: 30px;
@@ -268,6 +267,9 @@ header {
     float: none;
     font-size: 40px;
     padding-top: 0; }
+
+.paddingTop {
+  padding-top: 80px; }
 
 .hiddenMenu {
   transition: .3s ease-in-out;

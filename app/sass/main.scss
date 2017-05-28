@@ -338,10 +338,10 @@ $bar-spacing: 8px;
   height: 100%;
   width: 100%;
   background: #292F36;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
   position: fixed;
   z-index: 999;
-  padding-top: 80px;
+  
   text-align: center;
   h4{
     font-size: 30px;
@@ -358,6 +358,9 @@ $bar-spacing: 8px;
     padding-top: 0;
 
   }
+}
+.paddingTop{
+  padding-top: 80px;
 }
 
 .hiddenMenu{
