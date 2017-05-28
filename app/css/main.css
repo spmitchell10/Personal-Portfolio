@@ -11,7 +11,8 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 .logo {
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 999; }
 
 header {
   position: fixed;
@@ -278,7 +279,7 @@ header {
   transition-delay: initial; }
 
 .navMenuHidden {
-  transform: translateY(-100%) !important; }
+  transform: translateY(-115%) !important; }
 
 .navMenuVisible {
   transform: translateY(0%); }
