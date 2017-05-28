@@ -20,7 +20,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -43,7 +43,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -66,7 +66,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -89,7 +89,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -112,7 +112,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -135,7 +135,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -158,7 +158,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -181,7 +181,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -204,7 +204,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {
@@ -227,7 +227,7 @@
                         },
                         'nav': {
                             templateUrl: '../partials/nav.html',
-                            controller: 'navController',
+                            controller: 'TableController',
                             controllerAs: 'vm',
                         },
                         'footer': {

@@ -191,8 +191,9 @@ header {
 
 .mySkills {
   text-align: center;
-  font-size: 45px;
-  padding-top: 15px; }
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .mySkills i {
     padding: 5px;
     color: #292F36; }
@@ -253,7 +254,20 @@ header {
   background: #292F36;
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
-  z-index: 999; }
+  z-index: 999;
+  padding-top: 80px;
+  text-align: center; }
+  .hiddenMenu h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    cursor: pointer; }
+  .hiddenMenu h4:hover {
+    color: #4ECDC4;
+    transition: all .4s ease; }
+  .hiddenMenu .socialMedia {
+    float: none;
+    font-size: 40px;
+    padding-top: 0; }
 
 .hiddenMenu {
   transition: .3s ease-in-out;

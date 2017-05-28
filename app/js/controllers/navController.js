@@ -16,6 +16,8 @@
                 })
             })();
 
+
+
             (() => {
                 $('.hamburgerMenu').on('click', function() {
                     $('.bar').toggleClass('animate');
