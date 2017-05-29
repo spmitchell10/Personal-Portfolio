@@ -70,13 +70,18 @@ header {
     }
 }
 
-.naveMenu:active{
+.active{
   border-bottom: 5px solid #4ECDC4;
   h4{
     color: #4ECDC4;
   }
 }
 
+.activeMini{
+  h4{
+    color: #4ECDC4;
+  }
+}
 
 
 

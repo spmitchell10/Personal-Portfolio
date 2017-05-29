@@ -5,17 +5,17 @@
                 <div class="col-md-2 col-sm-6">
                     <h1 ui-sref='home' class="logo">S<a style="color:#4ECDC4; text-decoration: none">.M</a></h1>
                 </div>
-                <div class="col-md-2 navMenu hidden-sm hidden-xs">
-                    <h4 ui-sref='home'>Portfolio</h4>
+                <div class="col-md-2 navMenu Portfolio  navMenuPortfolio hidden-sm hidden-xs" ng-class="{active:isActive('/')}">
+                    <h4 class="joker" ui-sref='home'>Portfolio</h4>
                 </div>
-                <div class="col-md-2 navMenu hidden-sm hidden-xs">
-                    <h4 ui-sref='about'>About</h4>
+                <div class="col-md-2  navMenu About hidden-sm hidden-xs" ng-class="{active:isActive('/about')}">
+                    <h4 class="joker" ui-sref='about'>About</h4>
                 </div>
-                <div class="col-md-2 navMenu hidden-sm hidden-xs">
-                    <h4 ui-sref='contact'>Contact</h4>
+                <div class="col-md-2 navMenu Contact hidden-sm hidden-xs" ng-class="{active:isActive('/contact')}">
+                    <h4 class="joker" ui-sref='contact'>Contact</h4>
                 </div>
-                <div class="col-md-2 navMenu hidden-sm hidden-xs">
-                    <h4 ui-sref='resume'>Resume</h4>
+                <div class="col-md-2 navMenu Resume hidden-sm hidden-xs" ng-class="{active:isActive('/resume')}">
+                    <h4 class="joker" ui-sref='resume'>Resume</h4>
                 </div>
                 <div class="col-md-2 hidden-sm hidden-xs">
                     <a class="fa fa-twitter-square socialMedia" href="https://twitter.com/spmitchell_" aria-hidden="true"></a>
@@ -30,16 +30,16 @@
         <div class="container-fluid hiddenMenu navMenuHidden navMenuVisible">
             <div class="row hiddenMenuRow">
                 <div class="col-md-12">
-                    <div class="col-md-2 paddingTop">
+                    <div class="col-md-2 paddingTop" ng-class="{activeMini:isActive('/')}">
                         <h4 ui-sref='home'>Portfolio</h4>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2" ng-class="{activeMini:isActive('/about')}">
                         <h4 ui-sref='about'>About</h4>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2" ng-class="{activeMini:isActive('/contact')}">
                         <h4 ui-sref='contact'>Contact</h4>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2" ng-class="{activeMini:isActive('/resume')}">
                         <h4 ui-sref='resume'>Resume</h4>
                     </div>
                     <div class="col-md-2">

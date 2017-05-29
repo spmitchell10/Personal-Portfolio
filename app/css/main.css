@@ -57,10 +57,13 @@ header {
     color: #4ECDC4;
     transition: all .4s ease; }
 
-.naveMenu:active {
+.active {
   border-bottom: 5px solid #4ECDC4; }
-  .naveMenu:active h4 {
+  .active h4 {
     color: #4ECDC4; }
+
+.activeMini h4 {
+  color: #4ECDC4; }
 
 .portfolio {
   padding-top: 125px; }

@@ -3,11 +3,11 @@
 
     angular
         .module('portfolio')
-        .controller('TableController', function() {
+        .controller('TableController', function($scope, $location) {
 
-        	const vm = this;
+            const vm = this;
 
-        	(() => {
+            (() => {
                 $('.hamburgerMenu').on('click', function() {
                     $('.hiddenMenu').toggleClass('navMenuHidden');
                 })
@@ -19,8 +19,16 @@
                 })
             })();
 
-        	
-			
+
+            $scope.isActive = function(route) {
+                return route === $location.path();
+            }
+
+
+
+
+
+
         })
-     
+
 })();
