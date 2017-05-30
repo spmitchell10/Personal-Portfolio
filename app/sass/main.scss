@@ -440,6 +440,216 @@ $bar-spacing: 8px;
   }
 }
 
+//Hover Over
+
+
+.header-underscoreHome {
+    width: 40px;
+    height: 1px;
+    background: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+//Marvel Hover
+
+.marvelPop{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  
+  display: none;
+  position: absolute;
+  top:0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 40px);
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.marvelPopHidden{
+  
+  transform: translateY(-100%)!important;
+}
+
+.marvelPopVisible{
+   display: block;
+   transform: translateY(0%);
+}
+
+.marvelSite{
+  overflow: hidden;
+}
+
+
+
+//JamSesh Hover
+
+.jamPop{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+
+  display: none;
+  position: absolute;
+  top:0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 40px);
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.jamPopHidden{
+  
+  transform: translateY(-100%)!important;
+}
+
+.jamPopVisible{
+   display: block;
+   transform: translateY(0%);
+}
+
+.jamSite{
+  overflow: hidden;
+}
+
+//todo Hover
+
+.todoPop{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  
+  display: none;
+  position: absolute;
+  top:0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 40px);
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.todoPopHidden{
+  
+  transform: translateY(-100%)!important;
+}
+
+.todoPopVisible{
+   display: block;
+   transform: translateY(0%);
+}
+
+.todoSite{
+  overflow: hidden;
+}
+
+//Shopular Hover
+
+.shopularPop{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+
+  display: none;
+  position: absolute;
+  top:0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 40px);
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.shopularPopHidden{
+  
+  transform: translateY(-100%)!important;
+}
+
+.shopularPopVisible{
+   display: block;
+   transform: translateY(0%);
+}
+
+.shopularSite{
+  overflow: hidden;
+}
+
+//Insta Hover
+
+.instagramPop{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  
+  display: none;
+  position: absolute;
+  top:0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 40px);
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.instagramPopHidden{
+  
+  transform: translateY(-100%)!important;
+}
+
+.instagramPopVisible{
+   display: block;
+   transform: translateY(0%);
+}
+
+.instagramSite{
+  overflow: hidden;
+}
+
+//Blog Hover
+
+.blogPop{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  display: none;
+  position: absolute;
+  top:0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 40px);
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.blogPopHidden{
+  
+  transform: translateY(-100%)!important;
+}
+
+.blogPopVisible{
+   display: block;
+   transform: translateY(0%);
+}
+
+.blogSite{
+  overflow: hidden;
+}
+
 
 
 
