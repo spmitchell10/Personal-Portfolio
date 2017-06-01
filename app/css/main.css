@@ -350,7 +350,7 @@ header {
   padding-left: 10px;
   width: calc(100% - 30px);
   height: calc(100% - 40px);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 107, 107, 0.8);
   cursor: pointer; }
 
 .marvelPopHidden {
@@ -375,7 +375,7 @@ header {
   padding-left: 10px;
   width: calc(100% - 30px);
   height: calc(100% - 40px);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(78, 205, 196, 0.7);
   cursor: pointer; }
 
 .jamPopHidden {
@@ -425,7 +425,7 @@ header {
   padding-left: 10px;
   width: calc(100% - 30px);
   height: calc(100% - 40px);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(78, 205, 196, 0.7);
   cursor: pointer; }
 
 .shopularPopHidden {
@@ -475,7 +475,7 @@ header {
   padding-left: 10px;
   width: calc(100% - 30px);
   height: calc(100% - 40px);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(78, 205, 196, 0.7);
   cursor: pointer; }
 
 .blogPopHidden {
