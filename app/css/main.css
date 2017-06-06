@@ -321,6 +321,13 @@ header {
   background: #4ECDC4;
   margin-bottom: 20px; }
 
+.download {
+  background: #4ECDC4;
+  margin: 0px auto;
+  display: block;
+  margin-bottom: 20px;
+  float: none; }
+
 .form-control {
   padding-bottom: 9px; }
 
