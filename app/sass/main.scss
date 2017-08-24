@@ -17,6 +17,20 @@ body {
     z-index: 999;
 }
 
+.underline{
+  border-bottom: 2px solid #FF6B6B;
+  margin-bottom: 20px;
+}
+
+.black{
+  color: #292F36;
+}
+.red{
+  text-align: center;
+  color: #292F36;
+  margin-bottom: 20px;
+}
+
 //Nav Bar
 header {
     position: fixed;
