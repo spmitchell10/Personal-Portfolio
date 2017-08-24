@@ -19,7 +19,9 @@ body {
   margin-bottom: 20px; }
 
 .black {
-  color: #292F36; }
+  color: #292F36;
+  text-align: center;
+  margin-bottom: 20px; }
 
 .red {
   text-align: center;
